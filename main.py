@@ -45,14 +45,14 @@ a=a.encode('ascii')
 a=base64.b64decode(a)
 a=a.decode('ascii')
 
-def mksmode():
+def markosmode():
     print("Opa, como você veio parar aqui?")
     time.sleep(1)
     print("Deseja continuar?[s/n]")
     lero = input("> ")
     if lero =='s' or lero == 'S':
         print("Nova Opção Desbloqueada")
-        mks=1
+        markos=1
         menu()
     if lero =='n' or lero == 'N':
         print("Iniciando o script normalmente")
@@ -1218,7 +1218,7 @@ def password():
     snh = 'VirtualInsanity'
     print("\n ")
     if user == 'Markos' or user == 'MARKOS':
-        kinymode()
+        markosmode()
     if input("PASSWORD:  ").strip() == snh:
         menu()
     else:
