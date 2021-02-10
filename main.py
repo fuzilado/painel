@@ -1218,7 +1218,7 @@ def password():
     snh = 'VirtualInsanity'
     print("\n ")
     if user == 'Markos' or user == 'MARKOS':
-        Markosmode()
+        kinymode()
     if input("PASSWORD:  ").strip() == snh:
         menu()
     else:
